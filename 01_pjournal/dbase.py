@@ -5,6 +5,11 @@ entries = [
     # {"content": "Today I'm gonna continue learning programming!", "date": "04-01-2020"},
 ]
 
+import sqlite3 
+conn = sqlite3.connect("data.db")
+
+def create_table()
+
 def add_entry(entry_content, entry_date):
     
     entries.append({"content": entry_content, "date": entry_date})
